@@ -1,0 +1,24 @@
+sudoku - By Will of mindfuzz.net
+-------------------------------------------------
+
+This is a 'logical' sudoku solver. It will attempt to solve the
+sudoku through logical steps and strategies. The idea is it should
+be able to tell you how the sudoku was solved. It does not and
+it will never brute force the solution.
+
+Such strategies can be found here:
+	http://www.sudokuwiki.org/Strategy_Families
+
+At the moment only one simple strategy is employed, more should
+soon follow.
+
+The build system uses premake 4, so you'll need a copy of premak4
+from http://industriousone.com/premake
+
+Steps to compile (Linux):
+1. premake4 gmake
+2. make
+
+This will also compile on Windows/Mac. Premake4 will create all the
+build tools for you. For example "premake4 codeblocks" will create
+code::blocks project files.

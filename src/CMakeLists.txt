@@ -1,0 +1,1 @@
+add_executable(sudoku main.cpp methods.cpp sudoku.cpp)
